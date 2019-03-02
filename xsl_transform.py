@@ -16,11 +16,11 @@ opened in Excel, it could be other XML file
 
 Usage examples:
 
-python3 xsl_transform.py --ts panic_button_en.ts --xsl xslt/to_excel_table.xsl --output panic_button_translations.txt
+python3 xsl_transform.py --ts translation.ts --xsl xslt/to_excel_table.xsl --output translation.txt
 
-python3 xsl_transform.py --ts panic_support_ru.ts --xsl xslt/to_html_table.xsl --output panic_button_translations.html
+python3 xsl_transform.py --ts translation.ts --xsl xslt/to_html_table.xsl --output translation.html
 
-python3 xsl_transform.py --xml panic_button.xml --xsl xslt/to_html_table.xsl --output panic_button_translations.html
+python3 xsl_transform.py --xml translation.xml --xsl xslt/to_html_table.xsl --output translation.html
 
 You can also perform all transformations online at:
 https://www.freeformatter.com/xsl-transformer.html
