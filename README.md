@@ -1,4 +1,4 @@
-# QtLinguistXslTransformer
+## QtLinguistXslTransformer
 
 Application transforms XML files and QT translation (*.ts) files using XSL transformation
 Input file (XML or TS) should be provided, XSL file should be provided
